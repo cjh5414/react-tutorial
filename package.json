@@ -1,0 +1,27 @@
+{
+  "name": "react-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --watch --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjh5414/react-tutorial.git"
+  },
+  "author": "jihun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjh5414/react-tutorial/issues"
+  },
+  "homepage": "https://github.com/cjh5414/react-tutorial#readme",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
